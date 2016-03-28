@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textColor="#ff0000" android:id="@id/tv1" android:layout_width="-2" android:layout_height="-2" android:text="Please Wait......" />
+            <TextView android:textColor="#ff0000" android:id="@id/tv2" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textColor="#ff0000" android:id="@id/tv3" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textColor="#ff0000" android:id="@id/tv4" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textColor="#ff0000" android:id="@id/tv5" android:layout_width="-2" android:layout_height="-2" />
+            <Button android:id="@id/b1" android:background="#00cc00" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:text="Make Journey Over" />
+            <Button android:id="@id/b2" android:background="#00cc00" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:text="Block" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

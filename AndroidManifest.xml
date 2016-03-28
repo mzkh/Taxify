@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.test" platformBuildVersionCode="22" platformBuildVersionName="5.1-1756733">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="22" />
+    <uses-feature android:glEsVersion="20000" android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:debuggable="true" android:allowBackup="true">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBxhh1FE0hCEUHLoeo_4MoKNn4P00Tnnj0" />
+        <activity android:label="@string/app_name" android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name=".Login" />
+        <activity android:label="@string/app_name" android:name=".Register" />
+        <activity android:label="@string/app_name" android:name=".MyJourneyCustomer" />
+        <activity android:label="@string/app_name" android:name=".MyJourneyDriver" />
+        <activity android:label="@string/app_name" android:name=".InsertJourney1" />
+        <activity android:label="@string/app_name" android:name=".InsertJourney2" />
+        <activity android:label="@string/app_name" android:name=".InsertJourney3" />
+        <activity android:label="@string/app_name" android:name=".JourneyList" />
+        <activity android:label="@string/app_name" android:name=".OnMap" />
+        <activity android:label="@string/app_name" android:name=".BookJourney">
+            <intent-filter>
+                <action android:name="com.example.test.BOOKJOURNEY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name=".EditJourney1" />
+        <activity android:label="@string/app_name" android:name=".EditJourney2" />
+        <activity android:label="@string/app_name" android:name=".EditJourney3" />
+    </application>
+</manifest>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:id="@id/i1" android:title="OnMap" android:showAsAction="1" />
+    <item android:id="@id/i2" android:title="Logout" android:showAsAction="1" />
+</menu>

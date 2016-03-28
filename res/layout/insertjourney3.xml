@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@id/tv1" android:layout_width="-2" android:layout_height="-2" android:text="Src-" />
+    <TextView android:id="@id/tv2" android:layout_width="-2" android:layout_height="-2" android:text="Dest-" />
+    <TextView android:id="@id/textView3" android:layout_width="-2" android:layout_height="-2" android:text="Enter Time" />
+    <EditText android:id="@id/et1" android:layout_width="-1" android:layout_height="-2" android:hint="hh:mm:ss" android:ems="10">
+        <requestFocus />
+    </EditText>
+    <TextView android:id="@id/textView4" android:layout_width="-2" android:layout_height="-2" android:text="Enter Date" />
+    <EditText android:id="@id/et2" android:layout_width="-1" android:layout_height="-2" android:hint="yyyy-mm-dd" android:ems="10" android:inputType="14" />
+    <Button android:id="@id/b1" android:background="#00dd00" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:text="finish" />
+</LinearLayout>

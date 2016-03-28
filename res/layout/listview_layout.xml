@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <Button android:enabled="false" android:textColor="#ffffff" android:id="@id/bAskJourney" android:background="#000011" android:visibility="1" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="expand" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <ListView android:id="@id/listview" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>
